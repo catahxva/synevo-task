@@ -1,0 +1,16 @@
+.list_item {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.list_item_svg {
+  width: 1.6rem;
+  height: 1.6rem;
+  color: var(--navy-dark);
+}
+
+.list_item_span {
+  font-size: 1rem;
+  color: var(--basic-text-color);
+}

@@ -1,0 +1,17 @@
+.top_nav_logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.top_nav_logo_svg {
+  color: var(--blue-royal);
+  width: 3rem;
+  height: 3rem;
+}
+
+.top_nav_logo_text {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--blue-royal);
+}

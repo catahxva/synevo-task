@@ -1,0 +1,21 @@
+.button {
+  width: 8rem;
+  font-family: inherit;
+  font-size: 1rem;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  border: 1.4px solid var(--blue-navy);
+  border-radius: 2rem;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.bg_full {
+  color: var(--white);
+  background-color: var(--blue-navy);
+}
+
+.bg_empty {
+  color: var(--blue-navy);
+  background-color: var(--white);
+}

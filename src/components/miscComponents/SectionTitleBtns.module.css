@@ -1,0 +1,11 @@
+.container_btns {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.svg {
+  color: var(--grey);
+  width: 1rem;
+  height: 1rem;
+}

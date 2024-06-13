@@ -1,0 +1,54 @@
+.cta {
+  width: 100%;
+  padding: 0rem 2rem;
+  border-radius: 1rem;
+  height: 33.4rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.cta_img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cta_text_box {
+  position: absolute;
+  top: 2rem;
+  right: 5.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.cta_text {
+  font-size: 1.4rem;
+  color: var(--white);
+}
+
+.cta_text_colored {
+  font-weight: 700;
+  color: var(--yellow-golden);
+}
+
+.cta_button {
+  position: absolute;
+  bottom: 2.6rem;
+  right: 5.2rem;
+  background-color: transparent;
+  border: 2px solid var(--white);
+  width: 5.2rem;
+  height: 5.2rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.cta_svg {
+  color: var(--white);
+  width: 2rem;
+  height: 2rem;
+}

@@ -1,0 +1,20 @@
+.round_btn {
+  background-color: var(--white);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: none;
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+}
+
+.round_btn_large {
+  width: 3.2rem;
+  height: 3.2rem;
+}
+
+.round_btn_small {
+  width: 2.4rem;
+  height: 2.4rem;
+}

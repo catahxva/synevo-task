@@ -1,0 +1,29 @@
+.draggable {
+  width: 37.5rem;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  overflow-x: auto;
+  padding-right: 2rem;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.draggable::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+.draggable > *:first-child {
+  margin-left: 2rem;
+}
+
+.draggable_small_margin > * {
+  margin-left: 1rem;
+}
+.draggable_medium_margin > * {
+  margin-left: 2rem;
+}
+.draggable_large_margin > * {
+  margin-left: 2.4rem;
+}

@@ -1,0 +1,41 @@
+.card {
+  width: 15.3rem;
+  background-color: var(--white);
+  padding: 1.6rem 1.2rem;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.card_notif {
+  position: absolute;
+  top: 0.3rem;
+  right: 1.2rem;
+  width: 6rem;
+  background-color: transparent;
+  border: 1.2px solid var(--blue);
+  border-radius: 1rem;
+  font-family: inherit;
+  font-size: 1rem;
+  color: var(--blue);
+  padding-top: 0.2rem;
+  padding-bottom: 0.1rem;
+}
+
+.card_svg {
+  color: #fdb813;
+  width: 3rem;
+  height: 3rem;
+  margin-bottom: 2rem;
+}
+
+.card_title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--blue);
+}
+
+.card_subtitle {
+  font-size: 1.1rem;
+  color: var(--blue);
+  font-weight: 300;
+}

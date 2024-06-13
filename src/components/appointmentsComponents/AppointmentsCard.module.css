@@ -1,0 +1,44 @@
+.card_pacient {
+  font-size: 1.4rem;
+  font-weight: 500;
+  display: block;
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.card_pacient::after {
+  content: " ";
+  position: absolute;
+  bottom: -0.8rem;
+  left: 0;
+  width: 3.7rem;
+  height: 1px;
+  background-color: var(--yellow);
+}
+
+.card_location {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 1.2rem;
+}
+
+.card_location_svg {
+  color: var(--blue-dark);
+  width: 1.4rem;
+  height: 2rem;
+}
+
+.card_location_text {
+  font-size: 1rem;
+  color: var(--blue-dark);
+  font-weight: 500;
+}
+
+.card_list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+}

@@ -1,0 +1,32 @@
+:root {
+  --white: #fff;
+  --bg-color: #e8eff5;
+  --basic-text-color: #29263f;
+  --grey: #707070;
+  --blue-dark: #0054a3;
+  --navy-dark: #00478a;
+  --blue-medium: #0e5da7;
+  --blue: #00549e;
+  --blue-deep: #00539f;
+  --blue-navy: #00549d;
+  --blue-royal: #0051a4;
+  --yellow: #fdb913;
+  --yellow-golden: #f3ad00;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+  background-color: #555;
+}
